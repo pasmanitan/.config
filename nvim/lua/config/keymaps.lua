@@ -3,12 +3,9 @@ vim.keymap.set("n", "<leader>s", ":w<CR>")
 vim.keymap.set("n", "<leader>q", ":q<CR>")
 vim.keymap.set("t", "<C-l>", "<C-\\><C-n>")
 vim.keymap.set("i", "<C-l>", "<Esc>")
-vim.keymap.set("n", "U", "<C-r>")
-
 vim.keymap.set("n", "<leader>e", ":Oil<CR>") -- explorer
 vim.keymap.set("n", "<leader>d", ":Trouble diagnostics<CR>") --diagnostics
 vim.keymap.set("n", "<leader>z", "<leader>za") --code folding
-
 ---Telescope
 vim.keymap.set("n", "<leader>ff", ":Telescope find_files<CR>")
 vim.keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>")
