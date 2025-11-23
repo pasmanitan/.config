@@ -52,7 +52,7 @@ return {
 		},
 		use_default_keymaps = true,
 		view_options = {
-			show_hidden = false,
+			show_hidden = true,
 			natural_order = "fast",
 			case_insensitive = false,
 			sort = {

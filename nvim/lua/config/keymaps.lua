@@ -7,15 +7,8 @@ vim.keymap.set("n", "<leader>e", ":Oil<CR>") -- explorer
 vim.keymap.set("n", "<leader>d", ":Trouble diagnostics<CR>") --diagnostics
 vim.keymap.set("n", "<leader>z", "<leader>za") --code folding
 ---Telescope
-vim.keymap.set("n", "<leader>ff", ":Telescope find_files<CR>")
+vim.keymap.set("n", "<leader>fi", ":Telescope find_files<CR>")
 vim.keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>")
-
----buffers
-vim.keymap.set("n", "<leader>bb", ":enew<CR>")
-vim.keymap.set("n", "<leader>bd", ":bd<CR>")
-vim.keymap.set("n", "<leader>fb", ":Telescope buffers<CR>")
-vim.keymap.set("n", "<leader>bo", ":BufDelOthers<CR>")
-
 --window management
 vim.keymap.set("n", "<leader>wt", ":cd %:p:h<CR> :sp<CR> :terminal<CR>")
 vim.keymap.set("n", "<leader>wc", ":cd %:p:h<CR>")

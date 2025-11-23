@@ -1,5 +1,5 @@
 return {
-	{ "https://github.com/nvim-lua/plenary.nvim", lazy = false },
+	{ "https://github.com/nvim-lua/plenary.nvim" },
 	{ "https://github.com/stevearc/oil.nvim", lazy = false },
 	{ "https://github.com/nvim-telescope/telescope.nvim", lazy = false },
 	{ "https://github.com/nvim-mini/mini.icons", opts = {}, lazy = false },
