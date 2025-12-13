@@ -3,5 +3,8 @@ general package managers (currently on Windows):
 - scoop
 - winget
 
-raycast type bar:
-- powertoys command palette
+other tools:
+- powertoys (command palette, keyboard manager)
+- translucentTB
+- proton vpn
+
