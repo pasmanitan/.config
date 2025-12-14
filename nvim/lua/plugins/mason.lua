@@ -1,16 +1,50 @@
 return {
-	"WhoIsSethDaniel/mason-tool-installer",
-	opts = {
-		ensure_installed = {
-			"stylua",
-			"black",
-			"clangd",
-			"lua_ls",
-			"gopls",
-			"prettier",
-			"prettierd",
-			"html-lsp",
-			"svelte-language-server",
+	{
+		"williamboman/mason-lspconfig.nvim",
+		opts = {
+			ensure_installed = {
+				"ts_ls",
+				"html",
+				"cssls",
+				"tailwindcss",
+				"svelte",
+				"lua_ls",
+				"graphql",
+				"emmet_ls",
+				"prismals",
+				"eslint",
+				"ruff",
+			},
+		},
+		dependencies = {
+			{
+				"williamboman/mason.nvim",
+				opts = {
+					ui = {
+						icons = {
+							package_installed = "✓",
+							package_pending = "➜",
+							package_uninstalled = "✗",
+						},
+					},
+				},
+			},
+			"neovim/nvim-lspconfig",
+		},
+	},
+	{
+		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		opts = {
+			ensure_installed = {
+				"prettier", -- prettier formatter
+				"stylua", -- lua formatter
+				"ruff",
+				"pylint",
+				"eslint_d",
+			},
+		},
+		dependencies = {
+			"williamboman/mason.nvim",
 		},
 	},
 }

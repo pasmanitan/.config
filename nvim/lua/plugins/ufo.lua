@@ -1,5 +1,8 @@
 return {
 	"kevinhwang91/nvim-ufo",
+	dependencies = {
+		"https://github.com/kevinhwang91/promise-async",
+	},
 	lazy = false,
 	opts = {
 		provider_selector = function(bufnr, filetype, buftype)
