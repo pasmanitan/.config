@@ -48,6 +48,9 @@ vim.o.syntax = "on"
 vim.o.clipboard = "unnamedplus"
 vim.cmd([[ set fillchars+=eob:\ ]])
 vim.cmd([[colorscheme carbonfox]])
+vim.wo[0][0].foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.wo[0][0].foldmethod = "manual"
+vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
 --transparency
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })

@@ -14,6 +14,7 @@ return {
 				"prismals",
 				"eslint",
 				"ruff",
+				"gopls",
 			},
 		},
 		dependencies = {
@@ -41,6 +42,7 @@ return {
 				"ruff",
 				"pylint",
 				"eslint_d",
+				"clang-format",
 			},
 		},
 		dependencies = {
