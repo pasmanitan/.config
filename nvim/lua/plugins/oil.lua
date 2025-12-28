@@ -55,6 +55,9 @@ return {
 			show_hidden = true,
 			natural_order = "fast",
 			case_insensitive = false,
+			is_hidden_file = function(name, _)
+				return vim.startswith(name, ".") or (name == "go")
+			end,
 			sort = {
 				{ "type", "asc" },
 				{ "name", "asc" },

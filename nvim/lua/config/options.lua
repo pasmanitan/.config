@@ -51,9 +51,15 @@ vim.cmd([[colorscheme carbonfox]])
 vim.wo[0][0].foldexpr = "v:lua.vim.treesitter.foldexpr()"
 vim.wo[0][0].foldmethod = "manual"
 vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
+vim.o.termguicolors = true
 --transparency
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
 vim.api.nvim_set_hl(0, "StatusLine", { bg = "none" })
 vim.api.nvim_set_hl(0, "StatusLineNC", { bg = "none" })
 vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
+local statusline = {
+	"%F",
+}
+
+vim.o.statusline = table.concat(statusline, "")

@@ -15,6 +15,9 @@ return {
 				"eslint",
 				"ruff",
 				"gopls",
+				"clangd",
+				"biome",
+				"jdtls",
 			},
 		},
 		dependencies = {
@@ -43,6 +46,8 @@ return {
 				"pylint",
 				"eslint_d",
 				"clang-format",
+				"rust-analyzer",
+				"google-java-format",
 			},
 		},
 		dependencies = {

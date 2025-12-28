@@ -7,12 +7,17 @@ return {
 		opts = {
 			-- custom handling of parsers
 			ensure_installed = {
-				"python",
-				"go",
 				"lua",
+				"rust",
+				"c",
+				"cpp",
+				"typescript",
 				"html",
 				"htmx",
-				"typescript",
+				"javascript",
+				"java",
+				"go",
+				"python",
 			},
 		},
 		config = function(_, opts)

@@ -6,8 +6,7 @@ vim.keymap.set("i", "<C-l>", "<Esc>")
 vim.keymap.set("n", "<leader>e", ":Oil<CR>") -- explorer
 vim.keymap.set("n", "<leader>d", ":Trouble diagnostics<CR>") --diagnostics
 ---Telescope
-vim.keymap.set("n", "<leader>fi", ":Telescope find_files<CR>")
-vim.keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>")
+vim.keymap.set("n", "<leader>fd", ":Telescope fd<CR>")
 --window management
 vim.keymap.set("n", "<leader>wt", ":cd %:p:h<CR> :sp<CR> :terminal<CR>")
 vim.keymap.set("n", "<leader>wc", ":cd %:p:h<CR>")
