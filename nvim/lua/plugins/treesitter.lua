@@ -13,11 +13,11 @@ return {
 				"cpp",
 				"typescript",
 				"html",
-				"htmx",
 				"javascript",
 				"java",
 				"go",
 				"python",
+				"markdown",
 			},
 		},
 		config = function(_, opts)

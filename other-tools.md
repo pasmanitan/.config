@@ -12,4 +12,3 @@ other tools:
 all the code setup on arch linux via WSL2.
 
 - pacman
-- yay

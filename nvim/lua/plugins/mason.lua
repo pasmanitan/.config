@@ -18,6 +18,8 @@ return {
 				"clangd",
 				"biome",
 				"jdtls",
+				"ruff",
+				"marksman",
 			},
 		},
 		dependencies = {
@@ -43,6 +45,7 @@ return {
 				"prettier", -- prettier formatter
 				"stylua", -- lua formatter
 				"ruff",
+				"black",
 				"pylint",
 				"eslint_d",
 				"clang-format",

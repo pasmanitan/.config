@@ -1,5 +1,6 @@
 extensions:
-- adnauseum
+
+- ublock
 - unhook
 - startpage
 - bitwarden
