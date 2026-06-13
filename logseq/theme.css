@@ -1,0 +1,41 @@
+html {
+  --rx-mauve-02: black;
+  --lx-gray-06: black;
+  --rx-gray-06: black;
+}
+body,
+.cp__settings-inner aside,
+.cp__right-sidebar-scrollable,
+.bg-gray-02,
+.cp__cmdk > .hints {
+  background-color: black;
+}
+.dark .left-sidebar-inner {
+  --left-sidebar-bg-color: black;
+}
+
+.CodeMirror-gutter,
+.references-blocks-item,
+.CodeMirror-scroll,
+.cp__settings-inner article {
+  background-color: #161618;
+}
+
+.graph-view-nav,
+footer .px-2,
+.cp__sidebar-help-btn,
+.left-sidebar-inner .nav-contents-container,
+.button.icon,
+.hints {
+  display: none;
+}
+
+.left-sidebar-inner .create {
+  background-image: none;
+}
+
+@media (min-width: 640px) {
+  .dark .left-sidebar-inner .create {
+    background-image: none;
+  }
+}
